@@ -11,6 +11,7 @@ var zero = document.getElementById('zero')
 var addition = document.getElementById('addition')
 var equal = document.getElementById('equal')
 var inputs = document.getElementById('inputs')
+var clear = document.getElementById('clear')
 var inputStr = "";
 one.addEventListener('click', function addInput1(){
     inputs.innerHTML += "1"
@@ -70,6 +71,11 @@ multiply.addEventListener('click', function addInputAdd(){
 });
 equal.addEventListener('click', function runInputs(){
     inputs.innerHTML = eval(inputStr)
+});
+
+clear.addEventListener('click', function runInputs(){
+    inputs.innerHTML = ''
+    inputStr = ''
 });
 
 
