@@ -1,0 +1,41 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+    max-width: 300px;
+    margin: 0 auto;
+    
+}
+
+.container {
+    border: 1px solid black;
+    text-align: center;
+    align-content: center;
+    background-color: lightgray;
+}
+.inputScreen {
+    /* margin-top: 20px; */
+    /* display: block; */
+    background-color: white;
+    max-width: 250px;
+    height: 40px;
+    margin-left: 20px;
+    font-size: 2rem;
+    text-align: right;
+    border: 1px solid black;
+    border-radius: 15px;
+}
+.button, .eButton {
+    margin: 2px auto;
+    width: 20%;
+    padding: 20px;
+    font-size: 1.5rem;
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 15px;
+}
+.button:hover {
+    background-color: grey;
+}
